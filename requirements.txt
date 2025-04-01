@@ -4,3 +4,4 @@ joblib
 statsmodels
 plotly
 shap
+seaborn
