@@ -5,4 +5,7 @@ statsmodels
 plotly
 shap
 seaborn
-faiss
+faiss-cpu
+opeanai
+langchain
+matplotlib
