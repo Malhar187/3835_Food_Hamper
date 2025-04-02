@@ -9,3 +9,4 @@ faiss-cpu
 openai
 langchain
 matplotlib
+langchain-community
