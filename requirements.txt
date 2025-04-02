@@ -5,9 +5,7 @@ statsmodels
 plotly
 shap
 seaborn
-faiss-cpu
-openai
-langchain
 matplotlib
-langchain-community
-tiktoken
+sentence_transformers
+transformers
+pipeline
