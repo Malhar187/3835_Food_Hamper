@@ -6,6 +6,6 @@ plotly
 shap
 seaborn
 faiss-cpu
-opeanai
+openai
 langchain
 matplotlib
