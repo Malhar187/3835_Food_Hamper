@@ -162,7 +162,7 @@ def predict_hamper_pickups(input_features):
 
     # Define all columns expected by the model (excluding target)
     exog_columns = [
-        'scheduled_pickups'
+        'scheduled_pickups',
         'family_size',
         'special_occasion_Dhu al-Qadah', 'special_occasion_Eid al-Adha',
         'special_occasion_Eid al-Fitr', 'special_occasion_Muharram',
