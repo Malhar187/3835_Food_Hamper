@@ -176,7 +176,7 @@ def predict_hamper_pickups(input_features):
     for date in forecast_dates:
         row = dict.fromkeys(exog_columns, 0)  # default all to 0
         row["scheduled_pickups"] = input_features["scheduled_pickups"].iloc[0]
-        row["family_size"] = input_features["family_size"]
+        row["family_size"] = input_features["family_size"].iloc[0]
 
         # Handle season
         month = date.month
